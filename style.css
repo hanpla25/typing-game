@@ -3,3 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  background: rgb(19, 10, 10);
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+}
+.header span {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.main {
+  padding: 100px;
+}
+.word-box {
+  padding-bottom: 100px;
+  text-align: center;
+}
+.word-box span {
+  font-size: 90px;
+  color: rgb(19, 10, 10);
+}
+.input-form {
+  padding-bottom: 40px;
+}
+.input-form input {
+  width: 400px;
+  font-size: 50px;
+  text-align: center;
+}
+.score-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.score-box span {
+  font-size: 20px;
+}
+.button-box {
+  padding: 30px 0;
+  text-align: center;
+}
+.button-box button {
+  font-size: 20px;
+  background: rgb(19, 10, 10);
+  color: white;
+  width: 100%;
+  padding: 7px 0;
+}
